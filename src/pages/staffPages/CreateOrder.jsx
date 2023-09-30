@@ -97,7 +97,7 @@ const CreateOrder = () => {
                           <div className="w-full  flex justify-center items-center">
                             <img
                               className="w-full object-contain rounded-lg h-50 h-52"
-                              src={`http://localhost:4000${meal.imageMeal}`}
+                              src={`${import.meta.env.VITE_BACKEND_URL}${meal.imageMeal}`}
                               alt={meal.nameMeal}
                             />
                           </div>
