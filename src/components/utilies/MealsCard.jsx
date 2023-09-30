@@ -20,7 +20,7 @@ const MealsCard = ({meal}) => {
         <div className="rounded-lg h-20 flex justify-center items-center w-full ">
           <img
             className="h-full rounded-lg"
-            src={`${import.meta.env.VITE_BACKEND_URL}{imageMeal}`}
+            src={`${import.meta.env.VITE_BACKEND_URL}${imageMeal}`}
             alt={nameMeal}
           />
         </div>
